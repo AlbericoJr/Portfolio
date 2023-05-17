@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --tan: #bfa97d;
+  --white: #ffffff;
+  --lightWhite: #ffffff63;
+  --deepBlue: #1a242f;
+  --lightBlue: #212f3d;
+  --bg-main: #0e141b;
+
+
+  --text-color: #ffffff;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+
+  overflow-x: hidden;
+
+  min-height: 100vh;
+  background: var(--bg-main);
+  color: var(--text-color);
+}
+
+
+/*Menu*/
+header {
+  position: fixed;
+  width: 90%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 1.8rem 10%;
+  margin: 0 auto;
+  transition: all .50s ease;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  color: var(--text-color);
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: .5rem 0;
+  margin: 0 2rem;
+  transition: all .50s ease;
+}
+
+.navbar a:hover {
+  color: var(--tan);
+}
+
+.navbar a.active {
+  color: var(--tan);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.main a {
+  margin-right: 2.5rem;
+  margin-left: 1.0rem;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all .50s ease;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user i {
+  color: var(--tan);
+  font-size: 2.8rem;
+  margin-right: .7rem;
+}
+
+.main a:hover {
+  color: var(--tan);
+}
+
+#menu-icon {
+  font-size: 3.5rem;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+
+/*Main*/
+
+
+.homeItem {
+  padding: 9rem;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.desc h1 {
+  font-size: 5rem;
+}
+
+.desc h2 {
+  font-size: 4rem;
+}
+
+.desc p {
+  font-size: 1.8rem;
+  margin-top: .9rem;
+}
+
+.image img {
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 50%;
+
+  border: .4rem solid var(--tan);
+  opacity: .8;
+  margin: 5rem;
+}
+
+/*About*/
+.background {
+  background-color: var(--bg-main);
+  margin: auto;
+  text-align: center;
+}
+
+.descAbout h2 {
+  font-size: 2.8rem;
+  color: var(--tan);
+}
+
+.descAbout p {
+  font-size: 1.8rem;
+  margin: auto;
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+
+/*Timelapse*/
+.timeLapseContainer {
+  margin-top: 5rem;
+}
+
+.timeLapseContainer h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  justify-content: center;
+  color: var(--tan);
+  border-bottom: .1rem solid var(--tan);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.timeLapseContent {
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.time img {
+  width: 12rem;
+}
+
+
+/*Project*/
+.project {
+  padding-top: 2rem;
+}
+
+.project h2 {
+  font-size: 2.8rem;
+  color: var(--tan);
+}
+
+.project p {
+  font-size: 1.8rem;
+}
+
+.projectContainer {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+.title {
+  border-bottom: .1rem solid var(--tan);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+/*Contact*/
+.contact h2 {
+  font-size: 2.8rem;
+  color: var(--tan);
+}
+
+.socialMedia {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 2rem;
+}
+
+.socialMedia a {
+  color: var(--white);
+}
+
+.socialMedia a:hover {
+  transform: scale(1.3);
+  transition: 2s;
+}
+
+.contact img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.socialMedia span {
+  display: block;
+  color: var(--white);
+  font-size: 1.4rem;
+}
+
+@media (max-width:1280px) {
+  header {
+    padding: .5rem 2%;
+    transition: .2s;
+  }
+
+  .navbar a {
+    padding: .5rem 0;
+    margin: 0 2.0rem;
+  }
+
+
+}
+
+@media (max-width: 1090px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 90%;
+    right: -90%;
+    width: 17.0rem;
+    height: 35vh;
+    background: var(--lightBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 1.0rem;
+    transition: all .50s ease;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 1.1rem 0;
+    padding: 0 2.5rem;
+    transition: all .50s ease;
+  }
+
+  .navbar a:hover {
+    color: var(--text-color);
+    transform: translateY(.5rem);
+  }
+
+  .navbar a.activer {
+    color: var(--text-color);
+  }
+
+  .navbar.open {
+    right: 2%;
+  }
+
+  /*Main*/
+  .homeItem {
+    flex-direction: column-reverse;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desc h1 {
+    font-size: 6rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .desc h2 {
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .desc p {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .image img {
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: .4rem solid var(--tan);
+    opacity: .8;
+    margin: 1rem;
+  }
+
+  /*About*/
+  .descAbout p {
+    font-size: 1.6rem;
+    max-width: 90%;
+  }
+
+  /*Timelapse*/
+
+  .timeLapseContent {
+    max-width: 60%;
+  }
+
+  .time img {
+    width: 8rem;
+  }
+
+  .year {
+    font-size: 1.0rem;
+    padding: 0.8rem;
+  }
+
+}
+
+@media (max-width: 385px) {
+
+  .navbar {
+    width: 15.0rem;
+    height: 40vh;
+  }
+
+  .logo span {
+    font-size: 1.8rem;
+  }
+
+  .desc {
+    width: 100%;
+    margin: auto;
+  }
+
+  .desc h1 {
+    font-size: 3rem;
+  }
+
+  .desc h2 {
+    font-size: 2.5rem;
+  }
+
+  .desc p {
+    font-size: 1.3rem;
+  }
+
+  .descAbout p {
+    font-size: 1.3rem;
+    margin: auto;
+    max-width: 90%;
+  }
+
+  .descAbout h2 {
+    font-size: 1.9rem;
+  }
+
+  .timeLapseContainer h2 {
+    font-size: 1.9rem;
+  }
+
+  .timeLapseContent {
+    max-width: 80%;
+  }
+
+  .time img {
+    width: 7rem;
+  }
+
+  .project h2 {
+    font-size: 1.9rem;
+  }
+
+  .project p {
+    font-size: 1.3rem;
+  }
+
+  /*Contact*/
+  .contact h2 {
+    font-size: 1.9rem;
+  }
+
+  .contact img {
+    width: 3rem;
+  }
+}
