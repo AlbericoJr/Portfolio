@@ -130,7 +130,9 @@ header {
   align-items: center;
   justify-content: center;
   display: flex;
+  gap: 4rem;
 }
+
 
 .desc h1 {
   font-size: 5rem;
@@ -154,6 +156,7 @@ header {
 
   border: .4rem solid var(--tan);
   opacity: .8;
+  margin-top: 6rem;
 }
 
 /*About*/
@@ -166,6 +169,7 @@ header {
 .descAbout h2 {
   font-size: 2.8rem;
   color: var(--tan);
+  padding-top: 5rem;
 }
 
 .descAbout p {
@@ -284,6 +288,10 @@ header {
     margin: 0 2.0rem;
   }
 
+  .homeItem{
+    margin-top: 5rem;
+  }
+
 
 }
 
@@ -395,7 +403,9 @@ header {
   }
 
   .homeItem .desc h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
+    text-align: center;
+    justify-content: center;
   }
 
   .desc h2 {
