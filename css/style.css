@@ -154,7 +154,6 @@ header {
 
   border: .4rem solid var(--tan);
   opacity: .8;
-  margin: 5rem;
 }
 
 /*About*/
@@ -335,11 +334,10 @@ header {
     justify-content: center;
   }
 
-  .descAbout .desc h2 {
+  .desc h2 {
     font-size: 5rem;
     text-align: center;
     justify-content: center;
-    margin-top: 3rem;
   }
 
   .desc p {
@@ -362,6 +360,10 @@ header {
   .descAbout p {
     font-size: 1.6rem;
     max-width: 90%;
+  }
+
+  .descAbout .title h2{
+    margin-top: 5rem;
   }
 
   /*Timelapse*/
@@ -394,7 +396,6 @@ header {
 
   .homeItem .desc h1 {
     font-size: 2rem;
-    border: solid 1px red;
   }
 
   .desc h2 {
