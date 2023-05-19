@@ -368,7 +368,7 @@ header {
 
     border: .4rem solid var(--tan);
     opacity: .8;
-    margin: 7rem;
+    margin-top: 19rem;
   }
 
   /*About*/
@@ -428,7 +428,7 @@ header {
 
   .descAbout h2 {
     font-size: 1.9rem;
-    padding-top: 13rem;
+    margin-top: 6rem;
   }
 
   .timeLapseContainer h2 {
