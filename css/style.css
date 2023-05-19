@@ -367,7 +367,7 @@ header {
 
     border: .4rem solid var(--tan);
     opacity: .8;
-    margin: 1rem;
+    margin: 7rem;
   }
 
   /*About*/
@@ -377,7 +377,7 @@ header {
   }
 
   .descAbout .title h2{
-    padding-top: 5rem;
+    margin-top: 7rem;
   }
 
   /*Timelapse*/
