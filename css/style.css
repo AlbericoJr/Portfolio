@@ -289,7 +289,7 @@ header {
   }
 
   .homeItem{
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
 
@@ -391,7 +391,7 @@ header {
 
 }
 
-@media (max-width: 414px) {
+@media (max-width: 780px) {
 
   .navbar {
     width: 15.0rem;
@@ -403,13 +403,13 @@ header {
   }
 
   .homeItem .desc h1 {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     text-align: center;
     justify-content: center;
   }
 
   .desc h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .desc p {
