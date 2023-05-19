@@ -386,7 +386,7 @@ header {
 
 }
 
-@media (max-width: 385px) {
+@media (max-width: 414px) {
 
   .navbar {
     width: 15.0rem;
@@ -397,25 +397,21 @@ header {
     font-size: 1.8rem;
   }
 
-  .desc {
-    width: 100%;
-    margin: auto;
-  }
-
-  .desc h1 {
-    font-size: 1.9rem;
+  .homeItem .desc h1 {
+    font-size: 1.8rem;
+    border: solid 1px red;
   }
 
   .desc h2 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .desc p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .descAbout p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: auto;
     max-width: 90%;
   }
