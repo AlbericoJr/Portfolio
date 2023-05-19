@@ -420,6 +420,10 @@ header {
     font-size: 1.2rem;
   }
 
+  .image img {
+    margin-top: 2rem;
+  }
+
   .descAbout p {
     font-size: 1.2rem;
     margin: auto;
