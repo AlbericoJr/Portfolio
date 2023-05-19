@@ -295,7 +295,7 @@ header {
 
 }
 
-@media (max-width: 1089px) and (min-width: 782px) {
+@media (max-width: 1089px) {
   #menu-icon {
     display: block;
   }
@@ -395,7 +395,7 @@ header {
 
 }
 
-@media (max-width: 780px) and (min-width: 320px){
+@media (max-width: 780px){
 
   .navbar {
     width: 15.0rem;
