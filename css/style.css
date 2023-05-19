@@ -169,7 +169,7 @@ header {
 .descAbout h2 {
   font-size: 2.8rem;
   color: var(--tan);
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 .descAbout p {
@@ -376,9 +376,6 @@ header {
     max-width: 90%;
   }
 
-  .descAbout .title h2{
-    margin-top: 7rem;
-  }
 
   /*Timelapse*/
 
