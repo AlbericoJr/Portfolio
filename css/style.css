@@ -295,7 +295,7 @@ header {
 
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1089px) {
   #menu-icon {
     display: block;
   }
@@ -342,6 +342,12 @@ header {
     justify-content: center;
   }
 
+  .homeItem .desc h1 {
+    font-size: 6rem;
+    text-align: center;
+    justify-content: center;
+  }
+
   .desc h2 {
     font-size: 5rem;
     text-align: center;
@@ -371,7 +377,7 @@ header {
   }
 
   .descAbout .title h2{
-    margin-top: 5rem;
+    padding-top: 5rem;
   }
 
   /*Timelapse*/
