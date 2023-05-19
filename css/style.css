@@ -222,6 +222,10 @@ header {
   font-size: 1.8rem;
 }
 
+.nov{
+  color: var(--white);
+}
+
 .projectContainer {
   width: 100%;
   margin: auto;
@@ -288,11 +292,6 @@ header {
     margin: 0 2.0rem;
   }
 
-  .homeItem{
-    margin-top: 3rem;
-  }
-
-
 }
 
 @media (max-width: 1089px) {
@@ -305,7 +304,7 @@ header {
     top: 90%;
     right: -90%;
     width: 17.0rem;
-    height: 35vh;
+    height: 50vh;
     background: var(--lightBlue);
     display: flex;
     flex-direction: column;
@@ -399,7 +398,7 @@ header {
 
   .navbar {
     width: 15.0rem;
-    height: 40vh;
+    height: 25vh;
   }
 
   .logo span {
@@ -432,7 +431,6 @@ header {
 
   .descAbout h2 {
     font-size: 1.9rem;
-    margin-top: 6rem;
   }
 
   .timeLapseContainer h2 {
