@@ -397,8 +397,8 @@ header {
 @media (max-width: 780px){
 
   .navbar {
-    width: 15.0rem;
-    height: 25vh;
+    width: 16rem;
+    height: 27vh;
   }
 
   .logo span {
