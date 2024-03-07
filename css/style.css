@@ -37,14 +37,13 @@ img {
   background-color: var(--background-black);
   position: fixed;
   width: 100%;
-  padding: 0 2rem;
   height: 80px;
-
+  
   top: 0;
   right: 0;
   z-index: 1;
-  padding: 1.5re 10%;
   margin: 0 auto;
+  padding-left: 15px;
 }
 
 #logo {
@@ -467,7 +466,7 @@ nav {
   .navbar-menu {
     display: block;
     position: absolute;
-    width: 40%;
+    width: 50%;
     top: 60px;
     right: 0;
     background-color: var(--background-black);
@@ -482,7 +481,7 @@ nav {
   }
 
   .navbar-container.active .navbar-menu {
-    height: calc(70vh - 70px);
+    height: calc(60vh - 60px);
     visibility: visible;
     overflow-y: auto;
   }
@@ -587,7 +586,7 @@ nav {
   .navbar-menu {
     display: block;
     position: absolute;
-    width: 40%;
+    width: 50%;
     top: 60px;
     right: 0;
     background-color: var(--background-black);
@@ -602,7 +601,7 @@ nav {
   }
 
   .navbar-container.active .navbar-menu {
-    height: calc(70vh - 70px);
+    height: calc(60vh - 60px);
     visibility: visible;
     overflow-y: auto;
   }
